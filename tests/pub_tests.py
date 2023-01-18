@@ -8,7 +8,10 @@ from src.food import Food
 class TestPub(unittest.TestCase):
     def setUp(self):
         self.drink = Drinks('Vodka', 3.50, 2)
+
         self.pub = Pub('The Pedo and the Swan', 500)
+        # self.drink = self.pub.drinks['vodka']
+        # Lost at this point ?????
         self.customer = Customer('Super Hanz', 80, 45)
         self.food = Food('Chips', 2.75, 2)
 
