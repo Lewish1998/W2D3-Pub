@@ -3,6 +3,7 @@ from src.pub import Pub
 from src.customer import Customer
 from src.drinks import Drinks
 
+
 class TestDrinks(unittest.TestCase):
     def setUp(self):
         self.drink = Drinks('Vodka', 3.50)
