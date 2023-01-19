@@ -20,4 +20,6 @@ class Pub:
         return customer.age >= 18
 
 
-
+    def check_stock(self):
+        for drink in self.drinks:
+            
